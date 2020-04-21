@@ -17,15 +17,13 @@ Install it.
 npm install
 ```
 
-## Listening for an event with the Events API
-
-Your app will receive events at the Request URL you registered with Slack. Before completing that registration, you
-need to verify that the URL belongs to you by responding to a challenge. There is a command line tool built into the
-`@slack/events-api` package that you may use to respond to the challenge.
+## Configuration
 
 ```shell
-./node_modules/.bin/slack-verify --secret <signing_secret> [--path=/slack/events] [--port=3000]
+cp .env.example .env
 ```
+
+Edit `.env` with your Slack Token (the Bot Access Token) and App Signing Secret, plus a URL for a document that explains your etiquette, inclusion, and diversity policy.
 
 ## Run Dev
 
