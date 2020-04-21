@@ -2,6 +2,12 @@
 
 At Vonage, we're as concious as the next community about the use of language in our Slack workspaces. With the existing [guys-bot-for-slack](https://glitch.com/~guys-bot-for-slack) not working with the latest flavour of Slack API, I have recreate it using the most basic implementation of the Slack SDKs.
 
+![Screenshot of the bot responding to the message](screenshot.png "Screenshot of the bot responding to the message")
+
+The bot responds with an ephemeral message, not seen by anyone but the user who originally messaged.
+
+It requires the bot be invited into the channels you want it to listen on, so it can be implemented by individuals, or teams, as channels require, if that is what you want.
+
 ## Installation
 
 Get the repo.
