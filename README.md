@@ -1,6 +1,6 @@
 # Simple Guys Bot - Vonage
 
-At Vonage, we're as concious as the next community about the use of language in our Slack workspaces. With the existing [guys-bot-for-slack](https://glitch.com/~guys-bot-for-slack) not working with the latest flavour of Slack API, I have recreate it using the most basic implementation of the Slack SDKs.
+At Vonage, we're as concious as the next community about the use of language in our Slack workspaces. With the existing [guys-bot-for-slack](https://glitch.com/~guys-bot-for-slack) needing some updates to work with the latest flavour of Slack API, I have recreate it using the most basic implementation of the Slack SDKs.
 
 ![Screenshot of the bot responding to the message](screenshot.png "Screenshot of the bot responding to the message")
 
