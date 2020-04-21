@@ -1,6 +1,8 @@
-# Simple Guys Bot - Vonage
+# Simple Guys Bot
 
-At Vonage, we're as concious as the next community about the use of language in our Slack workspaces. With the existing [guys-bot-for-slack](https://glitch.com/~guys-bot-for-slack) needing some updates to work with the latest flavour of Slack API, I have recreate it using the most basic implementation of the Slack SDKs.
+If you're as I am about the use of language in you Slack workspace, this will interest you.
+
+With the existing [guys-bot-for-slack](https://glitch.com/~guys-bot-for-slack) needing some updates to work with the latest flavour of Slack API, I chose to recreate it using the most basic implementation of the Slack SDKs.
 
 ![Screenshot of the bot responding to the message](screenshot.png "Screenshot of the bot responding to the message")
 
@@ -13,8 +15,8 @@ It requires the bot be invited into the channels you want it to listen on, so it
 Get the repo.
 
 ```shell
-git clone https://github.com/lukeocodes/vonage-guys-bot.git
-cd vonage-guys-bot
+git clone https://github.com/lukeocodes/guys-bot.git
+cd guys-bot
 ```
 
 Install it.
