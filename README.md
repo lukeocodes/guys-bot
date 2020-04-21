@@ -24,7 +24,7 @@ need to verify that the URL belongs to you by responding to a challenge. There i
 `@slack/events-api` package that you may use to respond to the challenge.
 
 ```shell
-$ ./node_modules/.bin/slack-verify --secret <signing_secret> [--path=/slack/events] [--port=3000]
+./node_modules/.bin/slack-verify --secret <signing_secret> [--path=/slack/events] [--port=3000]
 ```
 
 ## Run Dev
