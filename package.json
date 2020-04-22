@@ -22,12 +22,12 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "@slack/events-api": "^2.3.2",
-    "@slack/web-api": "^5.8.0"
+    "@slack/web-api": "^5.8.0",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
-    "nodemon": "^2.0.3",
-    "dotenv": "^8.2.0"
+    "nodemon": "^2.0.3"
   }
 }
