@@ -1,5 +1,7 @@
 # Simple Guys Bot
 
+![Guy - the bot](assets/128w/standard-whos-a-good-bot.png)
+
 If you're as concious as I am about the use of language in your Slack workspace, this will interest you.
 
 With the existing [guys-bot-for-slack](https://glitch.com/~guys-bot-for-slack) needing some updates to work with the latest flavour of Slack API, I chose to recreate it using the most basic implementation of the Slack SDKs.
