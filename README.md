@@ -25,7 +25,9 @@ Install it.
 npm install
 ```
 
-## Configuration
+## Running it in Development Mode
+
+### Configuration
 
 ```shell
 cp .env.example .env
@@ -33,14 +35,21 @@ cp .env.example .env
 
 Edit `.env` with your Slack Token (the Bot Access Token) and App Signing Secret, plus a URL for a document that explains your etiquette, inclusion, and diversity policy.
 
-## Run Dev
+### Run Dev
 
 ```shell
 npm run dev
 ```
 
-## Run Prod
+## Deploying it to Production
+
+### To Start It
 
 ```shell
 npm start
 ```
+
+### Click to Deploy Options
+
+<!-- [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) -->
+<!-- [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run) -->

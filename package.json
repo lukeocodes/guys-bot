@@ -1,25 +1,33 @@
 {
   "name": "guys-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "engines": {
     "node": "10.x"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "slack-bot",
+    "slackbot",
+    "guys-bot",
+    "diversity",
+    "node",
+    "slack"
+  ],
+  "author": "Luke Oliff <luke@lukeoliff.com> (https://lukeoliff.com)",
+  "license": "AGPL",
   "dependencies": {
     "@slack/events-api": "^2.3.2",
-    "@slack/web-api": "^5.8.0",
-    "dotenv": "^8.2.0"
+    "@slack/web-api": "^5.8.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.3",
+    "dotenv": "^8.2.0"
   }
 }
