@@ -37,7 +37,7 @@ npm install
 cp .env.example .env
 ```
 
-Edit `.env` with your Slack Token (the Bot Access Token) and App Signing Secret, plus a URL for a document that explains your etiquette, inclusion, and diversity policy.
+Update `.env` following the `.env.example` file supplied with the project.
 
 ### Run Dev
 
