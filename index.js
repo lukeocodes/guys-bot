@@ -7,7 +7,10 @@ const slackEvents = createEventAdapter(process.env.SLACK_SIGNING_SECRET);
 const port = process.env.PORT || 3000;
 
 slackEvents.on('message', (event) => {
-  if (event.text.toLowerCase().includes('guys')) {
+  if (
+    event.hasOwnProperty('text') &&
+    event.text.toLowerCase().includes('guys')
+  ) {
     (async () => {
       const messageBody =
         process.env.GUYS_MESSAGE ||
