@@ -53,9 +53,8 @@ npm start
 
 ### Click to Deploy Options
 
-<!-- [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) -->
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 <!-- [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run) -->
-
 
 ## Logo
 
