@@ -12,7 +12,7 @@ The bot responds with an ephemeral message, not seen by anyone but the user who 
 
 It requires the bot be invited into the channels you want it to listen on, so it can be implemented by individuals, or teams, as channels require, if that is what you want.
 
-This guide has steps on the Slack API control panel. Please read [this article](https://dev.to/lukeocodes) on how to set up your Slack App to retrieve your SLACK_TOKEN and SLACK_SIGNING_SECRET.
+This guide has steps on the Slack API control panel. Please read [Who's a Good Bot? A Slack Bot For Inclusive Language](https://dev.to/lukeocodes/url-tbc), the supporting blog post for this application, on how to set up your Slack App to retrieve your SLACK_TOKEN and SLACK_SIGNING_SECRET.
 
 ## Installation Once Remixed
 
@@ -24,7 +24,7 @@ cp .env.example .env
 
 ## Update Your Request URL
 
-Head over to your Slack app's Event Subscription page (https://api.slack.com/apps/YOUR_APP_ID/event-subscriptions?) and update your request URL to be `https://<your-glitch-project>.glitch.me/slack/events`.
+Once configured, head over to your Slack app's Event Subscription page (https://api.slack.com/apps/YOUR_APP_ID/event-subscriptions?) and update your request URL to be `https://<your-glitch-project>.glitch.me/slack/events`.
 
 ## Logo
 

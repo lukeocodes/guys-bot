@@ -12,7 +12,7 @@ The bot responds with an ephemeral message, not seen by anyone but the user who 
 
 It requires the bot be invited into the channels you want it to listen on, so it can be implemented by individuals, or teams, as channels require, if that is what you want.
 
-This guide has steps on the Slack API control panel. Please read [this article](https://dev.to/lukeocodes) on how to set up your Slack App to retrieve your SLACK_TOKEN and SLACK_SIGNING_SECRET.
+This guide has steps on the Slack API control panel. Please read [Who's a Good Bot? A Slack Bot For Inclusive Language](https://dev.to/lukeocodes/url-tbc), the supporting blog post for this application, on how to set up your Slack App to retrieve your SLACK_TOKEN and SLACK_SIGNING_SECRET.
 
 ## Installation
 
@@ -53,10 +53,21 @@ npm run dev
 npm start
 ```
 
-### Click to Deploy Options
+## Click to Deploy Options
+
+More information on setting up your Slack App can be found in [Who's a Good Bot? A Slack Bot For Inclusive Language](https://dev.to/lukeocodes/url-tbc), an article supporting this repository with setup steps.
+
+### Deploy to Heroku
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Once deployed, update your Heroku environment variables with the SLACK_TOKEN and SLACK_SIGNING_SECRET from your Slack App. Once configured head over to your Slack app's Event Subscription page (https://api.slack.com/apps/YOUR_APP_ID/event-subscriptions?) and update your request URL to be `https://<your-heroku-app>.herokuapp.com/slack/events`.
+
+### Remix on Glitch
+
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/lukeocodes/guys-bot)
+
+Once remixed, update your `.env` file with the SLACK_TOKEN and SLACK_SIGNING_SECRET from your Slack App. Once configured head over to your Slack app's Event Subscription page (https://api.slack.com/apps/YOUR_APP_ID/event-subscriptions?) and update your request URL to be `https://<your-glitch-project>.glitch.me/slack/events`.
 
 ## Logo
 
