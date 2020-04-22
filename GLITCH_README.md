@@ -14,49 +14,13 @@ It requires the bot be invited into the channels you want it to listen on, so it
 
 This guide has steps on the Slack API control panel. Please read [this article](https://dev.to/lukeocodes) on how to set up your Slack App to retrieve your SLACK_TOKEN and SLACK_SIGNING_SECRET.
 
-## Installation
+## Installation Once Remixed
 
-Get the repo.
-
-```shell
-git clone https://github.com/lukeocodes/guys-bot.git
-cd guys-bot
-```
-
-Install it.
-
-```shell
-npm install
-```
-
-## Running it in Development Mode
-
-### Configuration
+Update `.env` following the `.env.example` file supplied with the project.
 
 ```shell
 cp .env.example .env
 ```
-
-Edit `.env` with your Slack Token (the Bot Access Token) and App Signing Secret, plus a URL for a document that explains your etiquette, inclusion, and diversity policy.
-
-### Run Dev
-
-```shell
-npm run dev
-```
-
-## Deploying it to Production
-
-### To Start It
-
-```shell
-npm start
-```
-
-### Click to Deploy Options
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/lukeocodes/guys-bot)
 
 ## Logo
 
