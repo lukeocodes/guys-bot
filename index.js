@@ -15,7 +15,7 @@ slackEvents.on('message', (event) => {
       const messageBody =
         process.env.GUYS_MESSAGE ||
         'Please bear in mind that the makeup of this Slack is ' +
-          ' very diverse, and some people feel excluded by the ' +
+          'very diverse, and some people feel excluded by the ' +
           'use of the term “guys”. Maybe you could try using ' +
           '_people_, _team_, _all_, _folks_, _everyone_, or _y\'all_?';
       const infoLink =
