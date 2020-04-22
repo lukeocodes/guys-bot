@@ -22,6 +22,10 @@ Update `.env` following the `.env.example` file supplied with the project.
 cp .env.example .env
 ```
 
+## Update Your Request URL
+
+Head over to your Slack app's Event Subscription page (https://api.slack.com/apps/YOUR_APP_ID/event-subscriptions?) and update your request URL to be `https://<your-glitch-project>.glitch.me/slack/events`.
+
 ## Logo
 
 Guy - whos a good bot - is saved as SVG and is subject to the same license for the project. Enjoy :)
