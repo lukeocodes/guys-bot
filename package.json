@@ -19,7 +19,7 @@
     "slack"
   ],
   "author": "Luke Oliff <luke@lukeoliff.com> (https://lukeoliff.com)",
-  "license": "AGPL",
+  "license": "AGPL-3.0",
   "dependencies": {
     "@slack/events-api": "^2.3.2",
     "@slack/web-api": "^5.8.0"
