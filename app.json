@@ -1,0 +1,17 @@
+{
+  "name": "Simple Guys Bot - A Slack Bot",
+  "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
+  "repository": "https://github.com/lukeocodes/guys-bot",
+  "logo": "https://raw.githubusercontent.com/lukeocodes/guys-bot/master/assets/512w/standard-whos-a-good-bot.png",
+  "keywords": ["node", "slack", "slackbot", "guys-bot"],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "From your Slack workspace OAuth & Permissions page. The Bot User OAuth Access Tokens are automatically generated when you installed the app to your workspace. The app uses these to authenticate your app.",
+      "required": true
+    },
+    "SLACK_SIGNING_SECRET": {
+      "description": "From your Slack workspace App Credentials page. Slack signs the requests it send you using this secret. Confirm that each request comes from Slack by verifying its unique signature.",
+      "required": true
+    }
+  }
+}
