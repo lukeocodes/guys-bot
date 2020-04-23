@@ -12,7 +12,7 @@ The bot responds with an ephemeral message, not seen by anyone but the user who 
 
 It requires the bot be invited into the channels you want it to listen on, so it can be implemented by individuals, or teams, as channels require, if that is what you want.
 
-This guide has steps on the Slack API control panel. Please read [Who's a Good Bot? A Slack Bot For Inclusive Language](https://dev.to/lukeocodes/url-tbc), the supporting blog post for this application, on how to set up your Slack App to retrieve your SLACK_TOKEN and SLACK_SIGNING_SECRET.
+This guide has steps on the Slack API control panel. Please read [Who's a Good Bot? A Slack Bot For Inclusive Language](https://dev.to/lukeocodes/who-s-a-good-bot-a-slack-bot-for-inclusive-language-2fkh), the supporting blog post for this application, on how to set up your Slack App to retrieve your SLACK_TOKEN and SLACK_SIGNING_SECRET.
 
 ## Installation
 
@@ -55,7 +55,7 @@ npm start
 
 ## Click to Deploy Options
 
-More information on setting up your Slack App can be found in [Who's a Good Bot? A Slack Bot For Inclusive Language](https://dev.to/lukeocodes/url-tbc), an article supporting this repository with setup steps.
+More information on setting up your Slack App can be found in [Who's a Good Bot? A Slack Bot For Inclusive Language](https://dev.to/lukeocodes/who-s-a-good-bot-a-slack-bot-for-inclusive-language-2fkh), an article supporting this repository with setup steps.
 
 ### Deploy to Heroku
 
