@@ -22,7 +22,7 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "@slack/events-api": "^2.3.2",
-    "@slack/web-api": "^5.8.0",
+    "@slack/web-api": "^5.9.0",
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
