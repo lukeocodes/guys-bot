@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "target": "es2017",
+  "lib": ["es2017"],
+  "rules": {
+    "no-console": false,
+    "no-namespace": false,
+    "object-literal-sort-keys": false,
+    "interface-name": [true, "never-prefix"],
+    "cyclomatic-complexity": [true, 10],
+    "eofline": true,
+    "quotemark": [true, "single", "avoid-escape"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ]
+  }
+}

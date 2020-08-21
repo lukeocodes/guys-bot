@@ -1,0 +1,49 @@
+import { SlackClient } from '.'
+
+export class Controller {
+  constructor(state: SlackClient.State) {
+    require('dotenv').config()
+
+    const { createEventAdapter } = require('@slack/events-api')
+    const { WebClient } = require('@slack/web-api')
+    const web = new WebClient(state.accessToken)
+    const slackEvents = createEventAdapter(state.signingSecret)
+    const port = process.env.PORT || 3000
+    
+    slackEvents.on('message', (event) => {
+      if (
+        Object.prototype.hasOwnProperty.call(event, 'text') &&
+        event.text.toLowerCase().includes('guys')
+      ) {
+        (async () => {
+          try {
+            const messageBody =
+            process.env.GUYS_MESSAGE ||
+            'Please bear in mind that the makeup of this Slack is ' +
+            'very diverse, and some people feel excluded by the ' +
+            'use of the term “guys”. Maybe you could try using ' +
+            '_people_, _team_, _all_, _folks_, _everyone_, or _y\'all_?'
+          const infoLink =
+            process.env.GUYS_INFO_LINK ||
+            'https://dev.to/kmelve/the-problem-with-you-guys-51h7'
+    
+          await web.chat.postEphemeral({
+            channel: event.channel,
+            user: event.user,
+            text: messageBody + ` (<${infoLink}|What\'s this then?>).`
+          })
+          }
+          catch(err) {
+            console.log(err.message);
+          }
+        })()
+      }
+    })
+    
+    slackEvents.on('error', console.error)
+    
+    slackEvents.start(port).then(() => {
+      console.log(`server listening on port ${port}`)
+    })
+  }
+}
