@@ -4,34 +4,21 @@
   "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "setup": "npm install & lerna run setup --stream",
+    "start": "lerna run start --stream",
+    "build": "lerna run build --stream",
+    "dev": "lerna run dev --stream"
   },
   "engines": {
     "node": "10.x"
   },
-  "keywords": [
-    "slack-bot",
-    "slackbot",
-    "guys-bot",
-    "diversity",
-    "node",
-    "slack"
+  "workspaces": [
+    "packages/**/*"
   ],
   "author": "Luke Oliff <luke@lukeoliff.com> (https://lukeoliff.com)",
   "license": "AGPL-3.0",
-  "dependencies": {
-    "@slack/events-api": "^2.3.2",
-    "@slack/web-api": "^5.8.0",
-    "dotenv": "^8.2.0"
-  },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "nodemon": "^2.0.3"
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.0"
   }
 }

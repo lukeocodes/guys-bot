@@ -12,7 +12,8 @@ slackEvents.on('message', (event) => {
     event.text.toLowerCase().includes('guys')
   ) {
     (async () => {
-      const messageBody =
+      try {
+        const messageBody =
         process.env.GUYS_MESSAGE ||
         'Please bear in mind that the makeup of this Slack is ' +
         'very diverse, and some people feel excluded by the ' +
@@ -27,6 +28,10 @@ slackEvents.on('message', (event) => {
         user: event.user,
         text: messageBody + ` (<${infoLink}|What\'s this then?>).`
       })
+      }
+      catch(err) {
+        console.log(err.message);
+      }
     })()
   }
 })
