@@ -2,12 +2,10 @@
   "name": "guys-bot",
   "version": "1.0.0",
   "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
-  "main": "index.js",
   "scripts": {
-    "setup": "npm install & lerna run setup --stream",
-    "start": "lerna run start --stream",
-    "build": "lerna run build --stream",
-    "dev": "lerna run dev --stream"
+    "install": "lerna run setup --stream",
+    "dev": "nodemon ./packages/client/dist/dev.js",
+    "start": "node ./packages/client/dist/start.js"
   },
   "engines": {
     "node": "10.x"
@@ -19,6 +17,7 @@
   "license": "AGPL-3.0",
   "devDependencies": {
     "lerna": "^3.22.1",
+    "nodemon": "^2.0.3",
     "rimraf": "^3.0.0"
   }
 }
