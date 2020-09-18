@@ -2,8 +2,8 @@
   "name": "guys-bot",
   "version": "1.0.0",
   "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
-  "main": "./dist/start.js",
-  "types": "./dist/start.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "setup": "npm install && rimraf ./dist && tsc",
     "build": "rimraf ./dist && tsc"
@@ -34,6 +34,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "rimraf": "^3.0.2",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.2"
   }
 }

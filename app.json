@@ -5,7 +5,7 @@
   "logo": "https://raw.githubusercontent.com/lukeocodes/guys-bot/master/assets/512w/standard-whos-a-good-bot.png",
   "keywords": ["node", "slack", "slackbot", "guys-bot"],
   "env": {
-    "SLACK_TOKEN": {
+    "SLACK_BOT_USER_OAUTH_ACCESS_TOKEN": {
       "description": "From your Slack workspace OAuth & Permissions page. The Bot User OAuth Access Tokens are automatically generated when you installed the app to your workspace. The app uses these to authenticate your app.",
       "required": true
     },
