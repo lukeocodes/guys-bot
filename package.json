@@ -2,10 +2,10 @@
   "name": "guys-bot",
   "version": "1.0.0",
   "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "engines": {
     "node": "10.x"
