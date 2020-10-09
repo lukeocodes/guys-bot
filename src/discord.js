@@ -23,7 +23,7 @@ client.on('message', message => {
         process.env.GUYS_INFO_LINK ||
         'https://dev.to/kmelve/the-problem-with-you-guys-51h7'
 
-      const msgEmbed = new Discord.MessageEmbed().setDescription(`${messageBody} ([What's this then?](${infoLink}).)`)
+      const msgEmbed = new Discord.MessageEmbed().setDescription(`${messageBody} ([What's this then?](${infoLink})).`)
       message.channel.send(msgEmbed)
     })()
   }
