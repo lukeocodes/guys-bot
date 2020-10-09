@@ -12,6 +12,10 @@
     "SLACK_SIGNING_SECRET": {
       "description": "From your Slack workspace App Credentials page. Slack signs the requests it send you using this secret. Confirm that each request comes from Slack by verifying its unique signature.",
       "required": true
+    },
+    "DISCORD_TOKEN": {
+      "description": "From your Discord Developer page. The Bot User Access Tokens are automatically generated when you create a bot on discord. The app uses these to authenticate your app.",
+      "required": true
     }
   }
 }
