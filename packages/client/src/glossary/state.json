@@ -1,0 +1,288 @@
+{
+    "terms": [
+        {
+            "text": "CNAME",
+            "response": "A Canonical Name (CNAME) record allows a URL to show your landing pages hosted at a different domain."
+        },
+        {
+            "text": "CCD",
+            "response": "Conversion Centered Design is a design approach focused on creating experiences that drive a single business goal. Based around seven psychological principles, including attention, coupling, context, congruence, clarity, credibility and continuance."
+        },
+        {
+            "text": "PPC",
+            "response": "Pay per click is a method of digital advertising whereby advertisements are displayed prominently alongside search results. As the name implies, you pay each time one of your ads is clicked."
+        },
+        {
+            "text": "AMP",
+            "response": "Accelerated mobile pages"
+        },
+        {
+            "text": "AUP",
+            "response": "Acceptable use policy: https://unbounce.com/acceptable-use-policy/"
+        },
+        {
+            "text": "S3",
+            "response": "Amazon S3 is their Simple Storage Service. This can be thought of as a low level cloud storage platform provided by Amazon Web Services, our cloud provider."
+        },
+        {
+            "text": "AWS",
+            "response": "Amazon Web Services"
+        },
+        {
+            "text": "API",
+            "response": "An abbreviation of application program interface, is a set of routines, protocols, and tools for building software applications. The API specifies how software components should interact and APIs are used when programming graphical user interface (GUI) components.  A good API makes it easier to develop a program by providing all the building blocks. A programmer then puts the blocks together."
+        },
+        {
+            "text": "ARPU",
+            "response": "Annual Revenue Per User: total revenue divided by the number of subscribers"
+        },
+        {
+            "text": "ADD",
+            "response": "Attention Driven Design"
+        },
+        {
+            "text": "ARPU",
+            "response": "Average Revenue per User - a way of measuring value and a widely used metric of success at Unbounce. "
+        },
+        {
+            "text": "BB",
+            "response": "BATTLEBRIDGE: Process used to fix a technical issue when something goes wrong in production"
+        },
+        {
+            "text": "CYOA",
+            "response": "Choose your own adventure"
+        },
+        {
+            "text": "CCP",
+            "response": "Content Creation Platform IE Smart Builder now"
+        },
+        {
+            "text": "CCS",
+            "response": "Content Creation Store:  Service that stores the variant documents for Smart Builder Pages"
+        },
+        {
+            "text": "CMS",
+            "response": "Content management system"
+        },
+        {
+            "text": "CI",
+            "response": "Continuous integration (CI) is the practice, in software engineering, of merging all developer working copies to a shared mainline several times a day"
+        },
+        {
+            "text": "CAC",
+            "response": "Cost of acquiring customer"
+        },
+        {
+            "text": "CS",
+            "response": "Customer Success aka the Sea Otters"
+        },
+        {
+            "text": "DTR",
+            "response": "Dynamic text replacement"
+        },
+        {
+            "text": "DTA",
+            "response": "Dynamic Traffic Allocation"
+        },
+        {
+            "text": "ELB",
+            "response": "Elastic Load Balancer - Technology used to distribute traffic to different computing instances"
+        },
+        {
+            "text": "EMW",
+            "response": "Envato's most wanted"
+        },
+        {
+            "text": "FCD",
+            "response": "Form Confirmation Dialog"
+        },
+        {
+            "text": "GA",
+            "response": "Google Analytics"
+        },
+        {
+            "text": "GTM",
+            "response": "Google Tag Manager"
+        },
+        {
+            "text": "JFM",
+            "response": "Job Family Matrix"
+        },
+        {
+            "text": "KPI",
+            "response": "Key performance indicator"
+        },
+        {
+            "text": "LP",
+            "response": "Landing page"
+        },
+        {
+            "text": "LPA",
+            "response": "Landing Page Analyzer"
+        },
+        {
+            "text": "LPO",
+            "response": "Landing page optimization"
+        },
+        {
+            "text": "ML",
+            "response": "Machine Learning / AI"
+        },
+        {
+            "text": "MVP",
+            "response": "Minimal viable product"
+        },
+        {
+            "text": "MRR",
+            "response": "Monthly Reccuring Revenue:  The amount of money that Unbounce bring in from subscriptions each month"
+        },
+        {
+            "text": "MRR",
+            "response": "Monthly Recurring Revenue"
+        },
+        {
+            "text": "NPS",
+            "response": "Net promoter score, The loyalty that exists between a provider and a consumer. The provider can be a company, employer or any other entity. The provider is the entity that is asking the questions on the NPS survey."
+        },
+        {
+            "text": "NTS",
+            "response": "New trial starts"
+        },
+        {
+            "text": "PS2",
+            "response": "Page Server (v2 - the only version we use)"
+        },
+        {
+            "text": "PD",
+            "response": "Product Development"
+        },
+        {
+            "text": "PO",
+            "response": "Product Owner"
+        },
+        {
+            "text": "PQ",
+            "response": "Product Quality (QA)"
+        },
+        {
+            "text": "Auto layout",
+            "response": "Renamed, Mobile Layout Assistant: This feature is the best way to get started on customizing your mobile responsive page. You can apply the Mobile Layout Assistant to your whole page, or to individual page sections, which will get you to a much friendlier starting point. "
+        },
+        {
+            "text": "ROI",
+            "response": "Return On Investment"
+        },
+        {
+            "text": "SEO",
+            "response": "Search engine optimization"
+        },
+        {
+            "text": "SSL",
+            "response": "Secure Socket Layer - This enables us to embed payment or secure information on Unbounce pages"
+        },
+        {
+            "text": "SLT",
+            "response": "Senior Leadership Team (business unit leaders and exec team)"
+        },
+        {
+            "text": "SLA",
+            "response": "service level agreement - official commitment that prevails between a service provider and the customer. Particular aspects of the service – quality, availability, responsibilities – are agreed between the service provider and the service user."
+        },
+        {
+            "text": "SOA",
+            "response": "service oriented architecture"
+        },
+        {
+            "text": "SSO",
+            "response": "Single sign on"
+        },
+        {
+            "text": "SB",
+            "response": "Smart Builder:  The new unbounce builder"
+        },
+        {
+            "text": "ST",
+            "response": "Smart traffic"
+        },
+        {
+            "text": "SDLC",
+            "response": "Software Development Lifecycle"
+        },
+        {
+            "text": "SQL",
+            "response": "Structured Query Language, is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS)."
+        },
+        {
+            "text": "SME",
+            "response": "Subject Matter Expert"
+        },
+        {
+            "text": "TAM",
+            "response": "Technical Account Manager - AWS representatives"
+        },
+        {
+            "text": "TPD",
+            "response": "Technichal, Product and Design - \"The TPD alliance\" - The three people who need to be aligned and are accountable for delivering a product "
+        },
+        {
+            "text": "CPC",
+            "response": "(Cost-per-click) The amount you’ll pay when a user clicks on your PPC ad. An ad’s actual CPC will fluctuate depending on its Quality Score and the maximum bid made by both yourself and other advertisers competing for the same keywords."
+        },
+        {
+            "text": "PSB",
+            "response": "(Popups and Sticky Bars) The customer-facing name for Embeddables - see \"Embeddables\""
+        },
+        {
+            "text": "CTA",
+            "response": "(Call to action) The one thing you want people to click on your page. Your call to action is the big shiny button you’re trying to steer attention toward, the “ask” every campaign is built around, your landing page’s raison d’etre."
+        },
+        {
+            "text": "POM",
+            "response": "(Page Object Model) The POM is our own data structure for storing elements that make up an HTML page (similar to the DOM used by web browsers). We use this so that we can have our own abstraction of what makes up a web page which allows us to support multiple output changes as HTML matures and browsers change."
+        },
+        {
+            "text": "CRO",
+            "response": "(Conversion Rate Optimization) The practice of continually improving your website or landing page’s capacity to convert visitors into leads or customers. Conversion rate optimization is all about making your marketing more successful."
+        },
+        {
+            "text": "SPA",
+            "response": "This is a TLA for Single Page App - it usually refers to web apps that are a single JavaScript client based application which loads things dynamically into the browser rather than rendering HTML ourput on the server."
+        },
+        {
+            "text": "POC",
+            "response": "(Proof of Concept) This milestone is pretty universal. This can be either a clickable prototype put together by the UX team, or a functioning piece of software showing the concept in working order. Typically we use these to communicate complex ideas to a wider audience internally, or to prove that a certain technical approach is feasible. At this phase customer involvement is limited to concept and usability testing."
+        },
+        {
+            "text": "TTM",
+            "response": "Trailing 12 Month Revenue"
+        },
+        {
+            "text": "UB",
+            "response": "Unbounce"
+        },
+        {
+            "text": "USB",
+            "response": "Unbounce Smart Builder"
+        },
+        {
+            "text": "USP",
+            "response": "Unique selling point"
+        },
+        {
+            "text": "UTM",
+            "response": "Urchin tracking module: it's a link with a tracking code attached, it helps us see which links get clicked/a lead's source. Here is a Guide."
+        },
+        {
+            "text": "WARP",
+            "response": "Weekly Average Republished Pages"
+        },
+        {
+            "text": "WSJF",
+            "response": "Weighted shortest job first"
+        },
+        {
+            "text": "YOY",
+            "response": "Year over year (or year-on-year)"
+        }
+    ]
+}

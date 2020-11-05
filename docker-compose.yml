@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  worker:
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/packages/client/node_modules
+      - /usr/src/app/packages/data/node_modules
+    command: npm seed
+    command: npm start
+    image: nodejs
+    container_name: nodejs
+    # restart: unless-stopped
+    env_file: .env
+    ports:
+      - '3000:3000'
+    expose:
+      - 3000
+    working_dir: /usr/src/app
+    external_links:
+      - custom_frontend
+    networks:
+      - data_some-net
+networks:
+  data_some-net:
+    external: true

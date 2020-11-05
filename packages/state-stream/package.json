@@ -1,0 +1,14 @@
+{
+  "name": "state-stream",
+  "version": "1.0.0",
+  "description": "Slack api interface",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm install && rimraf ./dist && tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
+  }
+}

@@ -1,57 +1,44 @@
-import { SlackClient } from '.'
+import { Client } from '.'
+import { SlackApi } from 'slack-api'
+import { StateStream } from 'state-stream'
+import * as config from "./state.json";
 
 export class Controller {
-  constructor(state: SlackClient.State) {
-    require('dotenv').config()
+  public state: Client.State
+  public language: Client.Language.Controller
+  public glossary: Client.Glossary.Controller
+  public slackApi: SlackApi.Controller
+  public blockKit: SlackApi.BlockKit.Block.Controller
+  public navigation: Client.Navigation.Controller
 
-    const { createEventAdapter } = require('@slack/events-api')
-    const { WebClient } = require('@slack/web-api')
-    const web = new WebClient(state.accessToken)
-    const slackEvents = createEventAdapter(state.signingSecret)
-    const port = process.env.PORT || 3000
+  constructor() {
+    this.navigation = new Client.Navigation.Controller()
+    this.language = new Client.Language.Controller()
+    this.glossary = new Client.Glossary.Controller()
+    this.slackApi = new SlackApi.Controller()
+  }
 
-    slackEvents.on('message', (event) => {
-      if (Object.prototype.hasOwnProperty.call(event, 'channel_type')) {
-        if (event.channel_type == 'channel') {
-          if (
-            Object.prototype.hasOwnProperty.call(event, 'text') &&
-            event.text.toLowerCase().includes('guys')
-          ) {
-            web.chat.postEphemeral({
-              channel: event.channel,
-              user: event.user,
-              text: 'Please bear in mind that the makeup of this Slack is very diverse, and some people feel excluded by the use of the term “guys”. Maybe you could try using _people_, _team_, _all_, _folks_, _everyone_, or _y\'all_?'
-            })
-          }
-        }
+  setState(state: Client.State) {
+    this.state = StateStream.Merge(state, config)
 
-        if (event.channel_type == 'im') {
-          if (
-            Object.prototype.hasOwnProperty.call(event, 'text') &&
-            event.text.toLowerCase().includes('guys')
-          ) {
-            web.chat.postEphemeral({
-              channel: event.user,
-              user: event.user,
-              text: 'Please bear in mind that the makeup of this Slack is very diverse, and some people feel excluded by the use of the term “guys”. Maybe you could try using _people_, _team_, _all_, _folks_, _everyone_, or _y\'all_?'
-            })
-          }
-        }
-
-        if (event.channel_type == 'mpim') {
-          console.log('message.mpim');
-        }
-
-        if (event.channel_type == 'groups') {
-          console.log('message.groups');
-        }
-      }
+    this.navigation.setState(this.state.navigation)
+    this.slackApi.setState({
+      signingSecret: this.state.signingSecret,
+      botUserOAuthAccessToken: this.state.botUserOAuthAccessToken
     })
+    this.language.setState({})
+    this.glossary.setState(this.state.glossary)
+  }
 
-    slackEvents.on('error', console.error)
+  public startServer() {
+    this.slackApi.start()
 
-    slackEvents.start(port).then(() => {
-      console.log(`server listening on port ${port}`)
-    })
+    this.slackApi.home(this.navigation.home.getSlackBlockKit())
+    this.slackApi.view(this.glossary.view())
+    this.slackApi.action(this.glossary.action())
+    this.slackApi.command(this.glossary.command())
+    this.slackApi.event(this.language.message())
+
+    this.slackApi.app.start(this.state.port)
   }
 }
