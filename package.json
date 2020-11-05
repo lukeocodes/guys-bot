@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
   "scripts": {
-    "install": "lerna run setup --stream",
     "dev": "nodemon ./packages/client/dist/dev.js",
-    "start": "node ./index.js"
+    "start": "lerna run build --stream  --scope=client && node ./index.js",
+    "install": "lerna run build --stream --scope=state-stream && lerna run build --stream --scope=slack-api && lerna run build --stream --scope=client",
+    "build": "lerna run build --stream --scope=state-stream && lerna run build --stream --scope=slack-api && lerna run build --stream --scope=client"
   },
   "engines": {
     "node": "10.x"
@@ -13,7 +14,6 @@
   "workspaces": [
     "packages/**/*"
   ],
-  "author": "Luke Oliff <luke@lukeoliff.com> (https://lukeoliff.com)",
   "license": "AGPL-3.0",
   "devDependencies": {
     "lerna": "^3.22.1",

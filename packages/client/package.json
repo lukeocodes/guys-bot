@@ -1,12 +1,10 @@
 {
-  "name": "guys-bot",
+  "name": "client",
   "version": "1.0.0",
-  "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "setup": "npm install && rimraf ./dist && tsc",
-    "build": "rimraf ./dist && tsc"
+    "build": "npm install && rimraf ./dist && tsc"
   },
   "engines": {
     "node": "10.x"
@@ -19,12 +17,11 @@
     "node",
     "slack"
   ],
-  "author": "Luke Oliff <luke@lukeoliff.com> (https://lukeoliff.com)",
-  "license": "AGPL-3.0",
   "dependencies": {
-    "@slack/events-api": "^2.3.2",
-    "@slack/web-api": "^5.8.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "slack-api": "file:../slack-api",
+    "state-stream": "file:../state-stream"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

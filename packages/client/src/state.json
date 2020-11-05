@@ -1,0 +1,10 @@
+{
+    "navigation": {
+        "home": {
+            "text": "Search the glossary of terms.",
+            "button": "Glossary",
+            "value": "glossary",
+            "actionId": "glossary"
+        }
+    }
+}
