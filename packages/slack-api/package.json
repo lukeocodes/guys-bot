@@ -1,0 +1,29 @@
+{
+  "name": "slack-api",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Slack api interface",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm install && rimraf ./dist && tsc"
+  },
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=2.14.7"
+  },
+  "dependencies": {
+    "@slack/bolt": "^2.3.0",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.13.8",
+    "express": "^4.16.4",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5",
+    "body-parser": "^1.17.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "start": "^5.1.0",
+    "tsscmp": "^1.0.6",
+    "state-stream": "file:../state-stream"
+  }
+}

@@ -1,6 +1,10 @@
-import { SlackClient } from '.'
+import { Client } from '.'
 
 export interface State {
-  accessToken: string
-  signingSecret: string
+  oAuthAccessToken?: string
+  botUserOAuthAccessToken?: string
+  signingSecret?: string
+  port?: number
+  navigation?: Client.Navigation.State
+  glossary?: Client.Glossary.State
 }
