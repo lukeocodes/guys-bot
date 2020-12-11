@@ -11,8 +11,8 @@ export interface PostEphemeral {
     chat: any
 }
 
-
 export interface Term {
     text: string
     response: string
+    dropdown?: boolean
 }
