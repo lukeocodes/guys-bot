@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Simple Guys Bot - A Slack Bot. Remake of @kmelve's guys-bot-for-slack for modern Slack APIs.",
   "scripts": {
-    "dev": "nodemon ./packages/client/dist/dev.js",
     "start": "lerna run build --stream  --scope=client && node ./index.js",
     "install": "lerna run build --stream --scope=state-stream && lerna run build --stream --scope=slack-api && lerna run build --stream --scope=client",
     "build": "lerna run build --stream --scope=state-stream && lerna run build --stream --scope=slack-api && lerna run build --stream --scope=client"

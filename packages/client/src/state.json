@@ -1,4 +1,5 @@
 {
+    "port": 3000,
     "navigation": {
         "home": {
             "text": "Search the glossary of terms.",
