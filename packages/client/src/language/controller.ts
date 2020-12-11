@@ -1,7 +1,9 @@
-import { SlackApi } from 'slack-api';
+import { SlackApi } from 'slack-api'
 import { Language } from '.'
 import { StateStream } from 'state-stream'
-import * as config from "./state.json"
+import * as config from './state.json'
+
+const VALID_CHANNEL_TYPES = ['channel', 'group', 'mpim', 'im']
 
 export class Controller {
     public slackBlockKit: SlackApi.BlockKit.Block.Controller
@@ -19,40 +21,22 @@ export class Controller {
         return {
             trigger: 'message',
             callback: (view, client, body) => {
-                if (
-                    view.channel_type == 'channel' ||
-                    view.channel_type == 'group' ||
-                    view.channel_type == 'mpim' ||
-                    view.channel_type == 'im'
-                ) {
-                    this.state.terms.forEach(term => {
-                        var viewText = view.text.toLowerCase()
-                        var termText = term.text.toLowerCase()
+                if (VALID_CHANNEL_TYPES.includes(view.channel_type)) {
+                    const viewText = view.text.toLowerCase()
+                    this.state.terms.forEach((term) => {
+                        const termRegexp = new RegExp(`\b${term.text}\b`, 'i')
 
-                        if (
-                            viewText == termText ||
-                            viewText.includes(' ' + termText + ' ') ||
-                            viewText.includes(' ' + termText + '.') ||
-                            viewText.includes(' ' + termText + '?') ||
-                            viewText.includes(' ' + termText + '!') ||
-                            viewText.includes(' ' + termText + ',') ||
-                            viewText.startsWith(termText + ' ') ||
-                            viewText.startsWith(termText + '.') ||
-                            viewText.startsWith(termText + '?') ||
-                            viewText.startsWith(termText + '!') ||
-                            viewText.startsWith(termText + ',') ||
-                            viewText.endsWith(' ' + termText)
-                        ) {
+                        if (termRegexp.test(viewText)) {
                             client.chat.postEphemeral({
                                 token: client.token,
                                 channel: view.user,
                                 user: view.user,
-                                text: term.text + ": " + term.response
+                                text: term.text + ': ' + term.response,
                             })
                         }
                     })
                 }
-            }
+            },
         }
     }
 }
