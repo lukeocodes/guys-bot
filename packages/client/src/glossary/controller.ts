@@ -111,7 +111,6 @@ export class Controller {
                 })
             }
         })
-        options.sort((a, b) => (a.value < b.value ? -1 : 1))
         options = options.slice(0, 99)
 
         client.views.open({
