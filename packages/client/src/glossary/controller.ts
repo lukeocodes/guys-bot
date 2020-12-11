@@ -95,15 +95,23 @@ export class Controller {
     public openModal(client, trigger) {
         var options = []
         this.state.terms.forEach(term => {
-            options.push({
-                text: {
-                    type: "plain_text",
-                    text: term.text,
-                    emoji: true
-                },
-                value: term.text.toLowerCase()
-            })
+            let value = term.text.toLowerCase();
+
+            if (
+                term.dropdown &&
+                options.find(i => i.value === value) == null
+            ) {
+                options.push({
+                    text: {
+                        type: "plain_text",
+                        text: term.text,
+                        emoji: true
+                    },
+                    value: value
+                })
+            }
         })
+        options.sort((a, b) => (a.value < b.value ? -1 : 1))
         options = options.slice(0, 99)
 
         client.views.open({

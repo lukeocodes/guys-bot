@@ -2,287 +2,358 @@
     "terms": [
         {
             "text": "CNAME",
-            "response": "A Canonical Name (CNAME) record allows a URL to show your landing pages hosted at a different domain."
+            "response": "A Canonical Name (CNAME) record allows a URL to show your landing pages hosted at a different domain.",
+            "dropdown": true
         },
         {
             "text": "CCD",
-            "response": "Conversion Centered Design is a design approach focused on creating experiences that drive a single business goal. Based around seven psychological principles, including attention, coupling, context, congruence, clarity, credibility and continuance."
+            "response": "Conversion Centered Design is a design approach focused on creating experiences that drive a single business goal. Based around seven psychological principles, including attention, coupling, context, congruence, clarity, credibility and continuance.",
+            "dropdown": true
         },
         {
             "text": "PPC",
-            "response": "Pay per click is a method of digital advertising whereby advertisements are displayed prominently alongside search results. As the name implies, you pay each time one of your ads is clicked."
+            "response": "Pay per click is a method of digital advertising whereby advertisements are displayed prominently alongside search results. As the name implies, you pay each time one of your ads is clicked.",
+            "dropdown": true
         },
         {
             "text": "AMP",
-            "response": "Accelerated mobile pages"
+            "response": "Accelerated mobile pages",
+            "dropdown": true
         },
         {
             "text": "AUP",
-            "response": "Acceptable use policy: https://unbounce.com/acceptable-use-policy/"
+            "response": "Acceptable use policy: https://unbounce.com/acceptable-use-policy/",
+            "dropdown": true
         },
         {
             "text": "S3",
-            "response": "Amazon S3 is their Simple Storage Service. This can be thought of as a low level cloud storage platform provided by Amazon Web Services, our cloud provider."
+            "response": "Amazon S3 is their Simple Storage Service. This can be thought of as a low level cloud storage platform provided by Amazon Web Services, our cloud provider.",
+            "dropdown": true
         },
         {
             "text": "AWS",
-            "response": "Amazon Web Services"
+            "response": "Amazon Web Services",
+            "dropdown": true
         },
         {
             "text": "API",
-            "response": "An abbreviation of application program interface, is a set of routines, protocols, and tools for building software applications. The API specifies how software components should interact and APIs are used when programming graphical user interface (GUI) components.  A good API makes it easier to develop a program by providing all the building blocks. A programmer then puts the blocks together."
+            "response": "An abbreviation of application program interface, is a set of routines, protocols, and tools for building software applications. The API specifies how software components should interact and APIs are used when programming graphical user interface (GUI) components.  A good API makes it easier to develop a program by providing all the building blocks. A programmer then puts the blocks together.",
+            "dropdown": true
         },
         {
             "text": "ARPU",
-            "response": "Annual Revenue Per User: total revenue divided by the number of subscribers"
+            "response": "Annual Revenue Per User: total revenue divided by the number of subscribers",
+            "dropdown": true
         },
         {
             "text": "ADD",
-            "response": "Attention Driven Design"
+            "response": "Attention Driven Design",
+            "dropdown": true
         },
         {
             "text": "ARPU",
-            "response": "Average Revenue per User - a way of measuring value and a widely used metric of success at Unbounce. "
+            "response": "Average Revenue per User - a way of measuring value and a widely used metric of success at Unbounce. ",
+            "dropdown": true
         },
         {
             "text": "BB",
-            "response": "BATTLEBRIDGE: Process used to fix a technical issue when something goes wrong in production"
+            "response": "BATTLEBRIDGE: Process used to fix a technical issue when something goes wrong in production",
+            "dropdown": true
         },
         {
             "text": "CYOA",
-            "response": "Choose your own adventure"
+            "response": "Choose your own adventure",
+            "dropdown": true
         },
         {
             "text": "CCP",
-            "response": "Content Creation Platform IE Smart Builder now"
+            "response": "Content Creation Platform IE Smart Builder now",
+            "dropdown": true
         },
         {
             "text": "CCS",
-            "response": "Content Creation Store:  Service that stores the variant documents for Smart Builder Pages"
+            "response": "Content Creation Store:  Service that stores the variant documents for Smart Builder Pages",
+            "dropdown": true
         },
         {
             "text": "CMS",
-            "response": "Content management system"
+            "response": "Content management system",
+            "dropdown": true
         },
         {
             "text": "CI",
-            "response": "Continuous integration (CI) is the practice, in software engineering, of merging all developer working copies to a shared mainline several times a day"
+            "response": "Continuous integration (CI) is the practice, in software engineering, of merging all developer working copies to a shared mainline several times a day",
+            "dropdown": true
         },
         {
             "text": "CAC",
-            "response": "Cost of acquiring customer"
+            "response": "Cost of acquiring customer",
+            "dropdown": true
         },
         {
             "text": "CS",
-            "response": "Customer Success aka the Sea Otters"
+            "response": "Customer Success aka the Sea Otters",
+            "dropdown": true
         },
         {
             "text": "DTR",
-            "response": "Dynamic text replacement"
+            "response": "Dynamic text replacement",
+            "dropdown": true
         },
         {
             "text": "DTA",
-            "response": "Dynamic Traffic Allocation"
+            "response": "Dynamic Traffic Allocation",
+            "dropdown": true
         },
         {
             "text": "ELB",
-            "response": "Elastic Load Balancer - Technology used to distribute traffic to different computing instances"
+            "response": "Elastic Load Balancer - Technology used to distribute traffic to different computing instances",
+            "dropdown": true
         },
         {
             "text": "EMW",
-            "response": "Envato's most wanted"
+            "response": "Envato's most wanted",
+            "dropdown": true
         },
         {
             "text": "FCD",
-            "response": "Form Confirmation Dialog"
+            "response": "Form Confirmation Dialog",
+            "dropdown": true
         },
         {
             "text": "GA",
-            "response": "Google Analytics"
+            "response": "Google Analytics",
+            "dropdown": true
         },
         {
             "text": "GTM",
-            "response": "Google Tag Manager"
+            "response": "Google Tag Manager",
+            "dropdown": true
         },
         {
             "text": "JFM",
-            "response": "Job Family Matrix"
+            "response": "Job Family Matrix",
+            "dropdown": true
         },
         {
             "text": "KPI",
-            "response": "Key performance indicator"
+            "response": "Key performance indicator",
+            "dropdown": true
         },
         {
             "text": "LP",
-            "response": "Landing page"
+            "response": "Landing page",
+            "dropdown": true
         },
         {
             "text": "LPA",
-            "response": "Landing Page Analyzer"
+            "response": "Landing Page Analyzer",
+            "dropdown": true
         },
         {
             "text": "LPO",
-            "response": "Landing page optimization"
+            "response": "Landing page optimization",
+            "dropdown": true
         },
         {
             "text": "ML",
-            "response": "Machine Learning / AI"
+            "response": "Machine Learning / AI",
+            "dropdown": true
         },
         {
             "text": "MVP",
-            "response": "Minimal viable product"
+            "response": "Minimal viable product",
+            "dropdown": true
         },
         {
             "text": "MRR",
-            "response": "Monthly Reccuring Revenue:  The amount of money that Unbounce bring in from subscriptions each month"
+            "response": "Monthly Reccuring Revenue:  The amount of money that Unbounce bring in from subscriptions each month",
+            "dropdown": true
         },
         {
             "text": "MRR",
-            "response": "Monthly Recurring Revenue"
+            "response": "Monthly Recurring Revenue",
+            "dropdown": true
         },
         {
             "text": "NPS",
-            "response": "Net promoter score, The loyalty that exists between a provider and a consumer. The provider can be a company, employer or any other entity. The provider is the entity that is asking the questions on the NPS survey."
+            "response": "Net promoter score, The loyalty that exists between a provider and a consumer. The provider can be a company, employer or any other entity. The provider is the entity that is asking the questions on the NPS survey.",
+            "dropdown": true
         },
         {
             "text": "NTS",
-            "response": "New trial starts"
+            "response": "New trial starts",
+            "dropdown": true
         },
         {
             "text": "PS2",
-            "response": "Page Server (v2 - the only version we use)"
+            "response": "Page Server (v2 - the only version we use)",
+            "dropdown": true
         },
         {
             "text": "PD",
-            "response": "Product Development"
+            "response": "Product Development",
+            "dropdown": true
         },
         {
             "text": "PO",
-            "response": "Product Owner"
+            "response": "Product Owner",
+            "dropdown": true
         },
         {
             "text": "PQ",
-            "response": "Product Quality (QA)"
+            "response": "Product Quality (QA)",
+            "dropdown": true
         },
         {
             "text": "Auto layout",
-            "response": "Renamed, Mobile Layout Assistant: This feature is the best way to get started on customizing your mobile responsive page. You can apply the Mobile Layout Assistant to your whole page, or to individual page sections, which will get you to a much friendlier starting point. "
+            "response": "Renamed, Mobile Layout Assistant: This feature is the best way to get started on customizing your mobile responsive page. You can apply the Mobile Layout Assistant to your whole page, or to individual page sections, which will get you to a much friendlier starting point. ",
+            "dropdown": true
         },
         {
             "text": "ROI",
-            "response": "Return On Investment"
+            "response": "Return On Investment",
+            "dropdown": true
         },
         {
             "text": "SEO",
-            "response": "Search engine optimization"
+            "response": "Search engine optimization",
+            "dropdown": true
         },
         {
             "text": "SSL",
-            "response": "Secure Socket Layer - This enables us to embed payment or secure information on Unbounce pages"
+            "response": "Secure Socket Layer - This enables us to embed payment or secure information on Unbounce pages",
+            "dropdown": true
         },
         {
             "text": "SLT",
-            "response": "Senior Leadership Team (business unit leaders and exec team)"
+            "response": "Senior Leadership Team (business unit leaders and exec team)",
+            "dropdown": true
         },
         {
             "text": "SLA",
-            "response": "service level agreement - official commitment that prevails between a service provider and the customer. Particular aspects of the service – quality, availability, responsibilities – are agreed between the service provider and the service user."
+            "response": "service level agreement - official commitment that prevails between a service provider and the customer. Particular aspects of the service – quality, availability, responsibilities – are agreed between the service provider and the service user.",
+            "dropdown": true
         },
         {
             "text": "SOA",
-            "response": "service oriented architecture"
+            "response": "service oriented architecture",
+            "dropdown": true
         },
         {
             "text": "SSO",
-            "response": "Single sign on"
+            "response": "Single sign on",
+            "dropdown": true
         },
         {
             "text": "SB",
-            "response": "Smart Builder:  The new unbounce builder"
+            "response": "Smart Builder:  The new unbounce builder",
+            "dropdown": true
         },
         {
             "text": "ST",
-            "response": "Smart traffic"
+            "response": "Smart traffic",
+            "dropdown": true
         },
         {
             "text": "SDLC",
-            "response": "Software Development Lifecycle"
+            "response": "Software Development Lifecycle",
+            "dropdown": true
         },
         {
             "text": "SQL",
-            "response": "Structured Query Language, is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS)."
+            "response": "Structured Query Language, is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).",
+            "dropdown": true
         },
         {
             "text": "SME",
-            "response": "Subject Matter Expert"
+            "response": "Subject Matter Expert",
+            "dropdown": true
         },
         {
             "text": "TAM",
-            "response": "Technical Account Manager - AWS representatives"
+            "response": "Technical Account Manager - AWS representatives",
+            "dropdown": true
         },
         {
             "text": "TPD",
-            "response": "Technichal, Product and Design - \"The TPD alliance\" - The three people who need to be aligned and are accountable for delivering a product "
+            "response": "Technichal, Product and Design - \"The TPD alliance\" - The three people who need to be aligned and are accountable for delivering a product ",
+            "dropdown": true
         },
         {
             "text": "CPC",
-            "response": "(Cost-per-click) The amount you’ll pay when a user clicks on your PPC ad. An ad’s actual CPC will fluctuate depending on its Quality Score and the maximum bid made by both yourself and other advertisers competing for the same keywords."
+            "response": "(Cost-per-click) The amount you’ll pay when a user clicks on your PPC ad. An ad’s actual CPC will fluctuate depending on its Quality Score and the maximum bid made by both yourself and other advertisers competing for the same keywords.",
+            "dropdown": true
         },
         {
             "text": "PSB",
-            "response": "(Popups and Sticky Bars) The customer-facing name for Embeddables - see \"Embeddables\""
+            "response": "(Popups and Sticky Bars) The customer-facing name for Embeddables - see \"Embeddables\"",
+            "dropdown": true
         },
         {
             "text": "CTA",
-            "response": "(Call to action) The one thing you want people to click on your page. Your call to action is the big shiny button you’re trying to steer attention toward, the “ask” every campaign is built around, your landing page’s raison d’etre."
+            "response": "(Call to action) The one thing you want people to click on your page. Your call to action is the big shiny button you’re trying to steer attention toward, the “ask” every campaign is built around, your landing page’s raison d’etre.",
+            "dropdown": true
         },
         {
             "text": "POM",
-            "response": "(Page Object Model) The POM is our own data structure for storing elements that make up an HTML page (similar to the DOM used by web browsers). We use this so that we can have our own abstraction of what makes up a web page which allows us to support multiple output changes as HTML matures and browsers change."
+            "response": "(Page Object Model) The POM is our own data structure for storing elements that make up an HTML page (similar to the DOM used by web browsers). We use this so that we can have our own abstraction of what makes up a web page which allows us to support multiple output changes as HTML matures and browsers change.",
+            "dropdown": true
         },
         {
             "text": "CRO",
-            "response": "(Conversion Rate Optimization) The practice of continually improving your website or landing page’s capacity to convert visitors into leads or customers. Conversion rate optimization is all about making your marketing more successful."
+            "response": "(Conversion Rate Optimization) The practice of continually improving your website or landing page’s capacity to convert visitors into leads or customers. Conversion rate optimization is all about making your marketing more successful.",
+            "dropdown": true
         },
         {
             "text": "SPA",
-            "response": "This is a TLA for Single Page App - it usually refers to web apps that are a single JavaScript client based application which loads things dynamically into the browser rather than rendering HTML ourput on the server."
+            "response": "This is a TLA for Single Page App - it usually refers to web apps that are a single JavaScript client based application which loads things dynamically into the browser rather than rendering HTML ourput on the server.",
+            "dropdown": true
         },
         {
             "text": "POC",
-            "response": "(Proof of Concept) This milestone is pretty universal. This can be either a clickable prototype put together by the UX team, or a functioning piece of software showing the concept in working order. Typically we use these to communicate complex ideas to a wider audience internally, or to prove that a certain technical approach is feasible. At this phase customer involvement is limited to concept and usability testing."
+            "response": "(Proof of Concept) This milestone is pretty universal. This can be either a clickable prototype put together by the UX team, or a functioning piece of software showing the concept in working order. Typically we use these to communicate complex ideas to a wider audience internally, or to prove that a certain technical approach is feasible. At this phase customer involvement is limited to concept and usability testing.",
+            "dropdown": true
         },
         {
             "text": "TTM",
-            "response": "Trailing 12 Month Revenue"
+            "response": "Trailing 12 Month Revenue",
+            "dropdown": true
         },
         {
             "text": "UB",
-            "response": "Unbounce"
+            "response": "Unbounce",
+            "dropdown": true
         },
         {
             "text": "USB",
-            "response": "Unbounce Smart Builder"
+            "response": "Unbounce Smart Builder",
+            "dropdown": true
         },
         {
             "text": "USP",
-            "response": "Unique selling point"
+            "response": "Unique selling point",
+            "dropdown": true
         },
         {
             "text": "UTM",
-            "response": "Urchin tracking module: it's a link with a tracking code attached, it helps us see which links get clicked/a lead's source. Here is a Guide."
+            "response": "Urchin tracking module: it's a link with a tracking code attached, it helps us see which links get clicked/a lead's source. Here is a Guide.",
+            "dropdown": true
         },
         {
             "text": "WARP",
-            "response": "Weekly Average Republished Pages"
+            "response": "Weekly Average Republished Pages",
+            "dropdown": true
         },
         {
             "text": "WSJF",
-            "response": "Weighted shortest job first"
+            "response": "Weighted shortest job first",
+            "dropdown": true
         },
         {
             "text": "YOY",
-            "response": "Year over year (or year-on-year)"
+            "response": "Year over year (or year-on-year)",
+            "dropdown": true
         }
     ]
 }
